@@ -1,0 +1,191 @@
+body {
+    background-image: url(images/table-mountain-feature-onsite-2.webp);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container {
+    width: 100%;
+}
+.container p {
+    overflow: auto;
+}
+.container img {
+    float: left;
+    margin-right: 10px;
+}
+.block {
+    border: 1px solid;
+    padding: 1em;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+   
+    
+}
+.container-block, .name-container-block {
+    /**background-image: url(images/table-mountain-feature-onsite-2.webp);**/
+    background-color: rgba(0, 255, 255, 0.685);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
+}
+
+    
+
+.margin {
+    margin-left: 10px;
+    margin: center;
+}
+.name {
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+
+
+header {
+    color: skyblue;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(31, 24, 24);
+}
+h3 {
+    color: orange;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: beige;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: orange;
+}
+
+.container-block, .margin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.heading {
+    text-align: center;
+}
+
+
+header {
+    background-color: skyblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: orange;
+}
+
+.text {
+    float: left;
+    display: inline-flex;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+    .container-block, .name-container-block {
+        flex-basis: calc(50% - 20px); 
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+    .container-block, .name-container-block {
+        flex-basis: calc(33.33% - 20px); 
+    }
+}
+/**
+
+@media screen and (max-width: 768px) {
+    .container-block {
+        display: flex; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container-block img {
+        width: 100px; 
+    }
+
+    .container-block {
+        width: calc(100% - 20px); 
+    }
+}
+
+
+
