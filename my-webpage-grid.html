@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,24 +9,24 @@
 <body>
     <header>
         <h1>Personal Webpage</h1>
-        <div class="name">
-            <div class="block margin">
+        <div class="names">
+            
+            <div class="texts">
                 <h2>Motlalepula Makhanya</h2>
+                <img src="images/Makhanya.jpg" width="200" alt="Motlalepula Makhanya" class="images">
             </div>
-            <div class="container-block">
-                <img src="images/Makhanya.jpg" width="200" alt="Motlalepula Makhanya">
-            </div>
+            
         </div>
     </header>
     
-    <h2>My favourite City</h2>
+    <h2 class="heading block">My favourite City</h2>
     <h3>Capetown</h3>
-    <div class="name">
-        <div class="block margin">
-            <img src="images/Cape Town.jpg" width="200" alt="Cape Town">
-        </div>
-        <div class="container-block">
-            <p>I want to visit Cape Town because it is a dream destination for many people, viewing the Table Mountain and the sea are some of the things that attract me a lot. It is one of the biggest cities in Africa.</p>
+    <div class="names">
+        
+        <div class="texts">
+            <img src="images/Cape Town.jpg" width="300" alt="Cape Town">
+            <p>I would love to visit Cape Town because it is a dream destination for many people, viewing the Table Mountain and the sea are some of the things that attract me a lot. It is one of the biggest cities in Africa.With such a varying landscape - found in very few other places across the globe - Cape Town offers forests, beaches, gardens, mountains, oceans, grasslands, nature reserves, Winelands, as well as one of the most unique floral biomes in the world - fynbos</p>
+            
         </div>
     </div>
 
@@ -52,131 +51,40 @@
             <td>Thank you</td>
         </tr>
     </table>
+    <style>
+        @media (max-width: 960px) {
+            .mid-text {
+                float: right !important;
+            }
+        }
+        .mid-text {
+            float: left !important;
+        }
+        p {
+            font-size: 15px;
+        }
+    </style>
 
     <section class="section">
-        <h2>My favourite Subjects</h2>
+        <h2 class="center block">My favourite Subjects</h2>
         <h3>I studied Bachelor of Engineering Technology in Electrical Engineering at University of Johannesburg</h3>
         <div class="row">
             <div class="col-4">
-                <div class="text">
-                    <h3>Full Stack Web Developmet</h3>
-                    <div class="row">
-                        <p class="col-6" font-size="smaller">I love this course because I learn more coding skills and languages such as HTML, CSS, JavaScript, and many more that I still have yet to learn. My mentors are amazing.</p>
-                        <img src="images/fullstack.png" width="150" alt="Full Stack web development" class="col-6">
-                    </div>
-                </div>
+                <h3>Full Stack Web Developmet</h3>
+                <p class="col-6-sm font-size">I love this course because I learn more coding skills and languages such as HTML, CSS, JavaScript, and many more that I still have yet to learn. My mentors are amazing.</p>
+                <img src="images/fullstack.png" width="150" alt="Full Stack web development" class="col-6-sm">
             </div>
             <div class="col-4">
-                <div class="text">
-                    <h3>Agile Rapid Skills Acquisition</h3>
-                    <div class="row">
-                        <p class="col-6" font-size="smaller">I love this course because I am still learning and I am still yet to know how software developers work, how they manage their time while carrying on with tasks to progress efficiently and produce better results.</p>
-                        <img src="images/agile.png" width="150" alt="Agile Rapid Skills Acquisition" class="col-6"> 
-                    </div>
-                </div>
+                <h4>Agile Rapid Skills Acquisition</h3>
+                <p class="col-6-sm font-light">I love this course because I am still learning and I am still yet to know how software developers work, how they manage their time while carrying on with tasks to progress efficiently and produce better results.</p>
+                <img src="images/agile.png" width="150" alt="Agile Rapid Skills Acquisition" class="col-6-sm"> 
             </div>
             <div class="col-4">
-                <div class="text">
-                    <h3 class="row">Engineering Technologies Bootcamps</h3>
-                    <div class="row">
-                        <p class="col-6" font-size="smaller">I love this course because I learned more about machine learning and artificial intelligence.  also learned how to use Python to process datasets, and I now know a lot about the technology advancements and all the Industrial Revolution concepts.</p>
-                        <img src="images/technology bootcamps.jpg" width="150" alt="Engineering Technologies Bootcamps" class="col-6">
-                    </div>
-                </div>
+                <h5>Engineering Technologies Bootcamps</h3>
+                <p class="col-6-sm font-size">I love this course because I learned more about machine learning and artificial intelligence also learned how to use Python to process datasets, and I now know a lot about the technology advancements and all the Industrial Revolution concepts.</p>
+                <img src="images/technology bootcamps.jpg" width="150" alt="Engineering Technologies Bootcamps" class="col-6-sm">
             </div>
         </div>
     </section>
 </body>
 </html>
-<!--
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Webpage</title>
-    <link rel="stylesheet" href="simple-grid.css">
-</head>
-<body>
-    <header>
-        <h1>Personal Webpage</h1>
-        <div class="name">
-            <div class="margin">
-                <h2>Motlalepula Makhanya</h2>
-            </div>
-            <div class="container-block">
-                <img src="images/Makhanya.jpg" width="200" alt="Motlalepula Makhanya">
-            </div>
-        </div>
-    </header>
-    
-    <h2>My favourite City</h2>
-    <h3>Capetown</h3>
-    <div class="name">
-        <div class="margin">
-            <img src="images/Cape Town.jpg" width="300" alt="Cape Town">
-        </div>
-        <div class="margin">
-            <p>I would love to visit Cape Town because it is a dream destination for many people, viewing the Table Mountain and the sea are some of the things that attract me a lot. It is one of the biggest cities in Africa.</p>
-        </div>
-    </div>
-
-    <div class="block">
-        <h2>Foreign Language</h2>
-    </div>
-    <table>
-        <tr>
-            <th>French</th>
-            <th>English</th>
-        </tr>
-        <tr>
-            <td>Bonsoir</td>
-            <td>Good Evening</td>
-        </tr>
-        <tr>
-            <td>S'il vous plaît</td>
-            <td>Please</td>
-        </tr>
-        <tr>
-            <td>Merci</td>
-            <td>Thank you</td>
-        </tr>
-    </table>
-    <h2>My favourite Subjects</h2>
-    <h3>I studied Bachelor of Engineering Technology in Electrical Engineering at University of Johannesburg</h3>
-    <div class="container">
-        <div class="row">
-            <div class="col-4">
-            
-                <div class="text">
-                    <div class="col-6">
-                        <h3>Full Stack web development</h3>
-                    </div>
-                    <p>I love this course because I learn more coding skills and languages such as HTML, CSS, JavaScript, and many more that I still have yet to learn. My mentors are amazing.</p>
-                    <img src="images/fullstack.png" width="150" alt="Full Stack web development">
-                </div>
-            </div>
-    
-            <div class="col-4">
-                <h3>Agile Rapid Skills Acquisition</h3>
-                <div class="text">
-                    <p>I love this course because I am still learning and I am still yet to know how software developers work, how they manage their time while carrying on with tasks to progress efficiently and produce better results.</p>
-                    <img src="images/agile.png" width="150" alt="Agile Rapid Skills Acquisition">
-                
-                
-                </div>
-            </div>
-        
-            <div class="col-4">
-                <h3>Engineering Technologies Bootcamps</h3>
-                <div class="text">
-                    <p>I love this course because I learned more about machine learning and artificial intelligence. I also learned how to use Python to process datasets, and I now know a lot about the technology advancements and all the Industrial Revolution concepts.</p>
-                    <img src="images/technology bootcamps.jpg" width="150" alt="Engineering Technologies Bootcamps">
-                </div>
-
-            </div>
-        </div>
-    </div>
-</body>
-</html>
--->
