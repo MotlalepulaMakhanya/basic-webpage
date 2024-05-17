@@ -59,7 +59,7 @@ th {
 
 * {
   font-family: 'Lato', Helvetica, sans-serif;
-  color: #333447;
+  color: black;
   line-height: 1.5;
 }
 
@@ -437,6 +437,7 @@ th {
 }
 p {
   font-size: 15px;
+  color: black;
 }
 .images-img {
   width: 150px;
