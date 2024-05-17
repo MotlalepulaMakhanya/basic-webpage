@@ -290,6 +290,9 @@ p {
   .hidden-sm {
     display: block;
   }
+  .mid-text {
+    order: 1;
+  }
 }
 
 @media only screen and (min-width: 60em) { /* 960px */
@@ -297,6 +300,7 @@ p {
     width: 75%;
     max-width: 60rem;
   }
+  
 }
 body {
   background-image: url(images/table-mountain-feature-onsite-2.webp);
@@ -474,7 +478,6 @@ p {
 @media (max-width: 960px) {
   .texts {
       display: block;
-  
   }
 
   .texts {
@@ -486,4 +489,5 @@ p {
       display: block;
       margin: 0 auto;
   }
+  
 }

@@ -164,35 +164,24 @@ p {
     .name {
         display: block;
     }
-    
 }
-/*@media screen and (max-width: 960px) {
-    .mid-text{
-        order: 1; 
-    }
-    .names {
-        display: block;
-    }
-    
-}*/
 
 .texts {
     display: flex;
     align-items: flex-start;
-    
 }
-
 .texts {
     margin-right: 20px;
 }
 
 .names-container img {
     margin: 0;
+    
 }
 
 @media (max-width: 960px) {
     .texts {
-        display: flex;
+        display: block;
     
     }
 
